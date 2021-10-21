@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input Pokemon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <form class="fomulario">
+      <div>
+        <label for="pokemonName">Nome do Pokemon:</label><br>
+        <input id="pokemonName" type="text">
+      </div>
+      <div>
+        <label for="pokemonMaster">Pokemon Master:</label><br>
+        <input id="pokemonMaster" type="text">
+      </div>
+
+      <div>
+        <label for="altura">Altura</label><br>
+        <input type="number" id="altura">
+      </div>
+      <div>
+        <label for="peso">Peso</label><br>
+        <input type="number" id="peso">
+      </div>
+      <div>
+        <label for="tipos">Tipos:</label><br>
+        <select name="tipo" id="tipos">
+          <option value="1">Fogo</option>
+          <option value="2">Agua</option>
+          <option value="3">Planta</option>
+          <option value="4">Escuridão</option>
+          <option value="5">Grama</option>
+        </select>
+      </div>
+      <div>
+        <label for="fraqueza">Fraqueza :</label><br>
+        <input id="Planta" type="radio" name="opcao" value="op4">
+        <label for="Planta" name="fraqueza">Planta</label>
+        <input type="radio" name="opcao" value="op1">
+        <label for="Fogo" name="fraqueza">Fogo</label>
+        <input type="radio" name="opcao" value="op2">
+        <label for="Água" name="fraqueza">Água</label>
+        <input type="radio" name="opcao" value="op3">
+        <label for="Veneno" name="fraqueza">Veneno</label>
+      </div>
+      <div>
+        <button type="submit"></button>
+      </div>
+    </form>
+  </div>
+
+</body>
+
+</html>

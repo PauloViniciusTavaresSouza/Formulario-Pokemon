@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fomulario {
+  background: #e9bd09;
+  width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 15px;
+  border: 10px solid #265eaccb;
+}
+
+.fomulario div {
+  padding: 5px 0;
+}
+
+label {
+  padding: 5px 0;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #000;
+  background: linear-gradient(to bottom, #f00 50%, #fff 50%);
+  cursor: pointer;
+  color: #fff;
+}
+
+button::after {
+  content: "";
+  display: block;
+  width: 97px;
+  height: 3px;
+  background: #000;
+  top: -13px;
+  position: relative;
+}
+
+button::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #000;
+  position: relative;
+  background: #fff;
+  top: 3px;
+  left: 33px;
+  z-index: 1;
+}
